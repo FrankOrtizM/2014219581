@@ -6,21 +6,22 @@ using System.Threading.Tasks;
 
 namespace _2014219581
 {
-     public class Parabrisas
+    class Cinturon
     {
-        private string NumSerie { get; set; }
+        public string NumSerie { get; set; }
+        public int Metraje { get; set; }
 
-        public Parabrisas()
+        public Cinturon()
         {
 
         }
 
-        public Parabrisas(string numserie)
+        public Cinturon(string numserie, int metraje)
         {
             NumSerie = numserie;
+            Metraje = metraje;
         }
 
-
-
     }
+
 }

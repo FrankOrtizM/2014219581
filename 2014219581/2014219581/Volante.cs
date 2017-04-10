@@ -6,8 +6,20 @@ using System.Threading.Tasks;
 
 namespace _2014219581
 {
-    class Volante
-    {
-        public string numSerie { set; get; };
-    }
+    public class Volante
+        {
+            public string NumSerie { get; set; }
+
+            public Volante()
+            {
+
+            }
+
+            public Volante(string numserie)
+            {
+                NumSerie = numserie;
+            }
+
+       }
+    
 }

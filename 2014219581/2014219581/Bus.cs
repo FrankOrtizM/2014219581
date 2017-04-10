@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace _2014219581
 {
-    class Bus
+
+    public class Bus : Carro
     {
+        public TipoBus TipoBus { get; set; }
+        public Bus() : base()
+        {
+            TipoBus = TipoBus.NoDefinido;
+        }
+
+        public Bus(TipoCarro tipoCarro, TipoBus tipoBus) : base()
+        {
+
+            TipoBus = tipoBus;
+        }
+
+
+
     }
 }

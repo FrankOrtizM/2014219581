@@ -8,5 +8,22 @@ namespace _2014219581
 {
     class Propietario
     {
+        private string DNI { get; set; }
+        private string Nombre { get; set; }
+        private string Apellidos { get; set; }
+        private string LicenciaConducir { get; set; }
+
+        public Propietario()
+        {
+
+        }
+
+        public Propietario(string dni, string nombre, string apellido, string licenciaconducir)
+        {
+            DNI = dni;
+            Nombre = nombre;
+            Apellidos = apellido;
+            LicenciaConducir = licenciaconducir;
+        }
     }
 }
